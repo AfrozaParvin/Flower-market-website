@@ -96,6 +96,18 @@
     padding: 30px 90px;
 }
 
+ /* plants-lover */
+
+ .plant-lover{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+ }
+ .plants-lover-title {
+    font-size: 2rem;
+    font-weight: 900px;
+ }
 
 
 
@@ -129,6 +141,12 @@
     }
     .plants-section{
         max-width: 100%;
+    }
+    .plant-lover{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+
     }
 
 }
