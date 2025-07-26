@@ -108,6 +108,23 @@
     font-size: 2rem;
     font-weight: 900px;
  }
+ /* deal */
+ .deal-title{
+    font-size: 2rem;
+    display:block;
+    
+    
+
+ }
+ .text-primary{
+    color: #E95A08;
+ }
+.deal-all{
+    display: flex;
+}
+ 
+
+
 
 
 
