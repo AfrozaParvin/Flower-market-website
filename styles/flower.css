@@ -1,0 +1,134 @@
+/* google fonts */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.cart-img{
+    width: 40px;
+    height: 40px;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+.navbar{
+    margin-left: auto;
+}
+.cart-img {
+    display: flex;
+
+    
+}
+.cart{
+    font-size: 1rem;
+}
+
+/* banner section */
+.text-primary{
+    color:#E95A08 ;
+}
+.banner-title{
+    font-size: 3rem;
+}
+.description{
+    color : gray;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-first{
+    margin-top: 90px;
+}
+
+
+/* plants */
+.plants-title{
+    font-size: 3rem;
+    
+}
+.plant-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn-primary{
+        background-color: #E95A08;
+        color:white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        width: 100%;
+
+}
+.plants-section{
+    margin-top: 50px;
+    padding: 30px 90px;
+}
+
+
+
+
+/* responsive for mobile */
+@media screen and (max-width: 576px){
+    .navbar{
+        display: none;
+    }
+    .cart-img{
+        margin-left: 250px;
+    }
+    .banner{
+     display: flex;
+     flex-direction: column-reverse;
+     
+    }
+    .hero-flowers{
+        margin-left:250px;
+    }
+    .descrition{
+        text-align: cen;
+    }
+
+    .plant-img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 150px;
+    }
+    .plants-title{
+        margin-left: 150px;
+    }
+    .plants-section{
+        max-width: 100%;
+    }
+
+}
